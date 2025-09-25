@@ -26,5 +26,4 @@
 - I simplified some parts so the project fits my learning level.  
 - I changed placeholder content (text and images) to my own.  
 - I tested the code in the browser and fixed small errors.  
-- I documented clearly what was AI-generated and what I did myself.  
 
