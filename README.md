@@ -11,7 +11,7 @@ It has these sections:
 - **About Me** → short intro, tagline, and optional profile image.  
 - **Projects** → at least two projects with title, description, and placeholder image.  
 - **Contact** → form with Name, Email, and Message (front-end only, no backend).  
-- (Optional) **Skills** → extra section to show abilities.  
+-  **Skills** → extra section to show abilities.  
 
 The site is **responsive**, so it works well on desktop, tablet, and mobile.
 
