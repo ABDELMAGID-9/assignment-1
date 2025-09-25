@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Simple, responsive personal portfolio." />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="container">
+    <nav class="nav">
+      <a class="logo" href="#">MyPortfolio</a>
+
+      <div class="nav-right">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark theme">🌗</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+
+      <ul id="navLinks" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li><!-- optional -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero container">
+      <h1 id="greeting">Hello!</h1>
+      <p class="subtitle">I build simple, clean, and responsive web experiences.</p>
+      <a class="btn" href="#projects">See my work</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p class="tagline">Front-end developer in progress — I like clear UI and simple code.</p>
+          <p>
+            I am learning web development with HTML, CSS, and JavaScript. I enjoy building
+            small projects and improving step by step. This site is my starting point.
+          </p>
+          <p>
+            My goal is to create useful, responsive pages that work well on any device.
+          </p>
+        </div>
+        <div class="about-photo">
+          <img src="assets/images/profile.jpg" alt="My profile photo (placeholder)" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/images/sample-1.jpg" alt="Project 1 screenshot (placeholder)" />
+          <h3>Project One</h3>
+          <p>A small project to learn layout, colors, and basic components.</p>
+          <a href="#" class="link">View project</a>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/sample-2.jpg" alt="Project 2 screenshot (placeholder)" />
+          <h3>Project Two</h3>
+          <p>Focused on forms and simple JavaScript interactions.</p>
+          <a href="#" class="link">View project</a>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/sample-3.jpg" alt="Project 3 screenshot (placeholder)" />
+          <h3>Project Three</h3>
+          <p>Practiced responsive grid and mobile-first design.</p>
+          <a href="#" class="link">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills (optional extra section) -->
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS (Flexbox & Grid)</li>
+        <li>JavaScript (Basics)</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <form class="contact-form" onsubmit="return false;">
+        <label>
+          Name
+          <input type="text" id="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" id="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Message
+          <textarea id="message" placeholder="Say hello..." required></textarea>
+        </label>
+        <button class="btn" id="sendBtn">Send</button>
+        <p id="formStatus" class="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
 
