@@ -2,7 +2,7 @@
 
 ## Tools Used & Use Cases
 - **ChatGPT**: helped create starter code (HTML, CSS, JS), explained responsive design, and gave ideas for interactivity.  
-- **GitHub Copilot (optional)**: gave inline code suggestions inside VS Code.  
+- **GitHub Copilot **: gave inline code suggestions inside VS Code.  
 
 ## Benefits & Challenges
 **Benefits**
