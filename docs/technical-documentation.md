@@ -13,7 +13,7 @@ It was created as part of Assignment 1. The site works on desktop, tablet, and m
 
 ## Responsive Design
 - Works on desktop, tablet, mobile
-- 
+  
 ---
 
 ## Interactivity
